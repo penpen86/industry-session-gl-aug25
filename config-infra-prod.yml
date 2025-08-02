@@ -20,12 +20,12 @@ variables:
   # DO NOT TOUCH
 
   # For pipeline reference
-  resource_group: default_resourse_group
-  aml_workspace: demo_workspace
-  application_insights: demoworkspace1997734687
-  key_vault: demoworkspace9715646723
-  container_registry: a9c528dba4cc4042a824b912e74ef850
-  storage_account: demoworkspace0813584800
+  resource_group: mlsops-june2023
+  aml_workspace: mlsops-june2023
+  application_insights: mlsopsjune20234200296620
+  key_vault: mlsopsjune20234751776654
+  container_registry: 305269114bc949b081bdc326b092f237
+  storage_account: mlsopsjune20239728570331
   
   # # For terraform reference
   # terraform_version: 0.14.7
