@@ -72,7 +72,7 @@ jobs:
         resource_group: ${{ needs.get-config.outputs.resource_group }}
         workspace_name: ${{ needs.get-config.outputs.aml_workspace }} 
         endpoint_file: mlops/azureml/deploy/online/online-endpoint.yml
-        endpoint_name: teleco-churn-endpoint
+        endpoint_name: teleco-churn-endpoint-isaug25
         endpoint_type: online
       secrets:
         creds: ${{secrets.AZURE_CREDENTIALS}}
@@ -84,7 +84,7 @@ jobs:
         resource_group: ${{ needs.get-config.outputs.resource_group }}
         workspace_name: ${{ needs.get-config.outputs.aml_workspace }} 
         endpoint_file: mlops/azureml/deploy/online/online-deployment.yml
-        endpoint_name: teleco-churn-endpoint
+        endpoint_name: teleco-churn-endpoint-isaug25
         endpoint_type: online
         deployment_name: teleco-churn-online-dp
       secrets:
